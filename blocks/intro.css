@@ -20,7 +20,7 @@
     margin-bottom: 10px;
 }
 
-.intro__text--text-small {
+.intro__text--small {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
@@ -29,7 +29,7 @@
     max-width: 722px;
 }
 
-.intro__text--text-citation {
+.intro__text--citation {
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
@@ -54,10 +54,10 @@
         margin: 50px 0 0;
         max-width: 720px;
     }
-    .intro__text--text-small {
+    .intro__text--small {
         margin: 0;
     }
-    .intro__text--text-citation {
+    .intro__text--citation {
         margin: 0 0 32px;
     }
 }
@@ -78,11 +78,11 @@
         line-height: 30px;
         margin: 40px 0 0;
     }
-    .intro__text--text-small {
+    .intro__text--small {
         font-size: 16px;
         line-height: 1.63;
     }
-    .intro__text--text-citation {
+    .intro__text--citation {
         margin: 10px 0 32px;
     }
 }
