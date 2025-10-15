@@ -1,0 +1,88 @@
+.intro {
+    margin-top: 92px;
+    max-width: 830px;
+}
+
+.intro__title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0;
+    max-width: 830px;
+}
+
+.intro__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 738px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.intro__text--text-small {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 722px;
+}
+
+.intro__text--text-citation {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    margin-top: 0;
+    box-sizing: border-box;
+    max-width: 732px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin-top: 90px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .intro__title {
+        font-size: 45px;
+        line-height: 49px;
+        max-width: 707px;
+    }
+    .intro__text {
+        margin: 50px 0 0;
+        max-width: 720px;
+    }
+    .intro__text--text-small {
+        margin: 0;
+    }
+    .intro__text--text-citation {
+        margin: 0 0 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        margin-top: 66px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 288px;
+    }
+    .intro__text {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 40px 0 0;
+    }
+    .intro__text--text-small {
+        font-size: 16px;
+        line-height: 1.63;
+    }
+    .intro__text--text-citation {
+        margin: 10px 0 32px;
+    }
+}
